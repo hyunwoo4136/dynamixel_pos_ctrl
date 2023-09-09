@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <node name="dynamixel_pos_ctrl" pkg="dynamixel_pos_ctrl" type="dynamixel_pos_ctrl" output="screen" >
+  </node>
+</launch>

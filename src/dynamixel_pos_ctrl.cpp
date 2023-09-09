@@ -15,6 +15,8 @@ void cmd_callback(const std_msgs::Int16::ConstPtr& msg)
 	send_flag=true;
 	
 	pos=msg->data;
+	
+	ROS_INFO("pos: %d", pos);
 }
 
 
