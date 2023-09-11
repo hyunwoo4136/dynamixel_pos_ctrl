@@ -3,4 +3,7 @@
 <launch>
   <node name="dynamixel_pos_ctrl" pkg="dynamixel_pos_ctrl" type="dynamixel_pos_ctrl" output="screen" >
   </node>
+  
+  <include file="$(find dynamixel_workbench_controllers)/launch/dynamixel_controllers.launch">
+  </include>
 </launch>
